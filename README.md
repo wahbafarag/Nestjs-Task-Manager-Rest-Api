@@ -24,7 +24,11 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Nestjs Rest Api build with nestjs , TypeOrm
+User can have as many tasks as he can , but the tasks is related to one user , i linked the user and the task with Decorators
+implemented Authentication with Jwt and Passport
+User can create , update task status , delete , get task by id and get all tasks create by him
+implemented filters by status , and search mechanism
 
 ## Installation
 
@@ -57,17 +61,3 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
