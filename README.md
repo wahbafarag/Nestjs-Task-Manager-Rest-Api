@@ -25,27 +25,27 @@
 ## Description
 
 ## NestJS REST API
-This is a REST API built with NestJS and TypeORM.
+This is a REST API built with NestJS and TypeORM.<br>
 
 ## Features
-User can have multiple tasks, with a one-to-many relationship between User and Task entities.
-Authentication is implemented using JWT and Passport.
-Users can perform CRUD operations on tasks (create, update status, delete).
-Users can retrieve a task by its ID and get all tasks created by them.
-Filtering tasks by status is supported.
-A search mechanism is implemented.
+User can have multiple tasks, with a one-to-many relationship between User and Task entities.<br>
+Authentication is implemented using JWT and Passport.<br>
+Users can perform CRUD operations on tasks (create, update status, delete).<br>
+Users can retrieve a task by its ID and get all tasks created by them.<br>
+Filtering tasks by status is supported.<br>
+A search mechanism is implemented.<br>
 
 ## Endpoints
-POST /auth/signup: Create a new user account.
-POST /auth/login: Authenticate and generate a JWT token.
-POST /tasks: Create a new task.
-PUT /tasks/:id: Update the status of a task.
-DELETE /tasks/:id: Delete a task.
-GET /tasks/:id: Get a task by its ID.
-GET /tasks: Get all tasks created by the authenticated user.
-GET /tasks?status=completed: Filter tasks by status.
-GET /tasks?search=query: Search for tasks matching the provided query.
-Make sure to replace :id with the actual ID of the task in the endpoints that require it.
+POST /auth/signup: Create a new user account.<br>
+POST /auth/login: Authenticate and generate a JWT token.<br>
+POST /tasks: Create a new task.<br>
+PUT /tasks/:id: Update the status of a task.<br>
+DELETE /tasks/:id: Delete a task.<br>
+GET /tasks/:id: Get a task by its ID.<br>
+GET /tasks: Get all tasks created by the authenticated user.<br>
+GET /tasks?status=completed: Filter tasks by status.<br>
+GET /tasks?search=query: Search for tasks matching the provided query.<br>
+Make sure to replace :id with the actual ID of the task in the endpoints that require it.<br>
 
 ## Installation
 
