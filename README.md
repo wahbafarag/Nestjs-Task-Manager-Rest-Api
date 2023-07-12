@@ -39,7 +39,7 @@ A search mechanism is implemented.<br>
 POST /auth/signup: Create a new user account.<br>
 POST /auth/login: Authenticate and generate a JWT token.<br>
 POST /tasks: Create a new task.<br>
-PUT /tasks/:id: Update the status of a task.<br>
+Patch /tasks/:id:/status Update the status of a task.<br>
 DELETE /tasks/:id: Delete a task.<br>
 GET /tasks/:id: Get a task by its ID.<br>
 GET /tasks: Get all tasks created by the authenticated user.<br>
