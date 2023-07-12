@@ -24,11 +24,28 @@
 
 ## Description
 
-Nestjs Rest Api build with nestjs , TypeOrm
-User can have as many tasks as he can , but the tasks is related to one user , i linked the user and the task with Decorators
-implemented Authentication with Jwt and Passport
-User can create , update task status , delete , get task by id and get all tasks create by him
-implemented filters by status , and search mechanism
+## NestJS REST API
+This is a REST API built with NestJS and TypeORM.
+
+## Features
+User can have multiple tasks, with a one-to-many relationship between User and Task entities.
+Authentication is implemented using JWT and Passport.
+Users can perform CRUD operations on tasks (create, update status, delete).
+Users can retrieve a task by its ID and get all tasks created by them.
+Filtering tasks by status is supported.
+A search mechanism is implemented.
+
+## Endpoints
+POST /auth/signup: Create a new user account.
+POST /auth/login: Authenticate and generate a JWT token.
+POST /tasks: Create a new task.
+PUT /tasks/:id: Update the status of a task.
+DELETE /tasks/:id: Delete a task.
+GET /tasks/:id: Get a task by its ID.
+GET /tasks: Get all tasks created by the authenticated user.
+GET /tasks?status=completed: Filter tasks by status.
+GET /tasks?search=query: Search for tasks matching the provided query.
+Make sure to replace :id with the actual ID of the task in the endpoints that require it.
 
 ## Installation
 
